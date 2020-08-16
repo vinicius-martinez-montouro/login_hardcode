@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/textview_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:id="@+id/edittext_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_usuario"
+        android:hint="@string/usuario"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="#5151ef"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    />
+    <TextView
+        android:id="@+id/textview_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_below="@+id/edittext_usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:id="@+id/editext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_password"
+        android:hint="@string/password"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:textColor="#5151ef"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        />
+
+</RelativeLayout>
